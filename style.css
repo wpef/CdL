@@ -246,7 +246,7 @@ textarea.sw-font-weight-default {
 }
 
 .sw-border-color-white {
-    border-color: #fff !important;
+    border : 1px solid white !important;
 }
 
 .sw-display-inline-block {
@@ -516,7 +516,7 @@ textarea.sw-font-weight-default {
 }
 
 .sw-border-color-white {
-    border-color: #fff !important;
+    border : 1px solid white !important;
 }
 
 .sw-letter-spacing-normal {
@@ -683,6 +683,10 @@ textarea.sw-font-weight-default {
 
 .sw-border-color-000000 {
     border-color: #000000 !important;
+}
+
+.sw-border-color-white {
+    border: 1px solid white !important;
 }
 
 .sw-border-radius-full {
@@ -1168,9 +1172,8 @@ textarea.sw-font-weight-default {
     border-color: #000000 !important;
 }
 
-
 .sw-border-color-white {
-    border-color: #fff !important;
+    border : 1px solid white !important;
 }
 
 .sw-border-radius-none {
