@@ -280,7 +280,8 @@ textarea.sw-font-weight-default {
 }
 
 .sw-background-color-gradient {
-    background : linear-gradient(#f79630, #0333a0 )
+    background: rgb(247,150,48);
+    background: linear-gradient(rgba(247,150,48,1) 20%, #0333a0 80%);
 }
 
 .sw-padding-bottom-4xs {
