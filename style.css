@@ -279,6 +279,10 @@ textarea.sw-font-weight-default {
     background-color: #0333a0 !important;
 }
 
+.sw-background-color-gradient {
+    background : linear-gradient(#f79630, #0333a0 )
+}
+
 .sw-padding-bottom-4xs {
     padding-bottom: 1rem !important;
 }
