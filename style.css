@@ -405,6 +405,15 @@ textarea.sw-font-weight-default {
     display: none;
 }
 
+
+#hero1 .row {
+    flex-direction : row-reverse;
+}
+
+img.fill-white {
+    filter : invert(1);
+}
+
 @media (max-width: 992px) {
     #header1 .desktop-menu {
     display: none;
