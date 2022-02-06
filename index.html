@@ -17,6 +17,7 @@
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&amp;display=swap" rel="stylesheet">
    <link href="./style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -49,8 +50,9 @@
                         style="background-color: rgb(255, 210, 52);"></div>
                   </li>
                   <li class="nav-item ">
-                     <a class="position-relative  sw-font-size-l sw-text-color-white sw-font-family-default sw-font-weight-normal sw-letter-spacing-normal sw-display-block sw-padding-top-6xs sw-padding-bottom-6xs sw-padding-left-6xs sw-padding-right-xs hover:sw-text-decoration-no-underline active:sw-background-color-transparent"
-                        href="#talent" target="">Nous Soutenir</a>
+                     <div id="donate-button-container">
+                           <div id="donate-button"></div>
+                        </div>
                      <div class="border-0 dropdown-menu" aria-labelledby="navbarDropdown-4"
                         style="background-color: rgb(255, 210, 52);"></div>
                   </li>
@@ -70,9 +72,11 @@
                         class="link collapsed d-block sw-font-size-l sw-text-color-white sw-font-family-default sw-font-weight-normal sw-letter-spacing-normal sw-display-block sw-padding-top-6xs sw-padding-bottom-6xs sw-padding-left-6xs sw-padding-right-xs hover:sw-text-decoration-no-underline active:sw-background-color-transparent"
                         href="#testimonial1" style="background-color: rgb(255, 210, 52);">Pour eux</a><a
                         class="link collapsed d-block sw-font-size-l sw-text-color-white sw-font-family-default sw-font-weight-normal sw-letter-spacing-normal sw-display-block sw-padding-top-6xs sw-padding-bottom-6xs sw-padding-left-6xs sw-padding-right-xs hover:sw-text-decoration-no-underline active:sw-background-color-transparent"
-                        href="#feature2" style="background-color: rgb(255, 210, 52);">Notre vision</a><a
-                        class="link collapsed d-block sw-font-size-l sw-text-color-white sw-font-family-default sw-font-weight-normal sw-letter-spacing-normal sw-display-block sw-padding-top-6xs sw-padding-bottom-6xs sw-padding-left-6xs sw-padding-right-xs hover:sw-text-decoration-no-underline active:sw-background-color-transparent"
-                        href="#" style="background-color: rgb(255, 210, 52);">Nous soutenir</a></div>
+                        href="#feature2" style="background-color: rgb(255, 210, 52);">Notre vision</a>
+                        <div id="donate-button-container">
+                           <div id="donate-button3"></div>
+                        </div>
+                     </div>
                   <div class="buttons-section"></div>
                </div>
             </div>
@@ -316,9 +320,13 @@ Nous accompagnons les jeunes vers une ambition propre à chacun et bâtie non se
                         class="nav-link sw-font-size-m sw-text-color-ffffff sw-font-family-default sw-font-weight-normal sw-letter-spacing-normal "
                         href="#testimonial1" target="">Pour Eux</a><a target=""
                         class="nav-link sw-font-size-m sw-text-color-ffffff sw-font-family-default sw-font-weight-normal sw-letter-spacing-normal "
-                         href="#feature2" target="">Notre Vision</a><a target=""
-                        class="nav-link sw-font-size-m sw-text-color-ffffff sw-font-family-default sw-font-weight-normal sw-letter-spacing-normal "
-                         href="#talent" target="">Nous Soutenir</a></div>
+                         href="#feature2" target="">Notre Vision</a>                
+                        <div id="donate-button-container">
+                           <div id="donate-button2"></div>
+                        </div>
+
+
+                  </div>
                </div>
             </div>
             <div class="row">
@@ -343,6 +351,25 @@ Nous accompagnons les jeunes vers une ambition propre à chacun et bâtie non se
    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.2.11/iframeResizer.contentWindow.js"
       crossorigin="anonymous"></script>
+
+   <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+<script>
+   var ppButton = 
+         PayPal.Donation.Button({
+            env:'production',
+            hosted_button_id:'EKYXEXZYMR5CY',
+            image: {
+            src:'https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donate_LG.gif',
+            alt:'Bouton Faites un don avec PayPal',
+            title:'PayPal - The safer, easier way to pay online!',
+         }
+         });
+
+ppButton.render('#donate-button')
+ppButton.render('#donate-button2');
+ppButton.render('#donate-button3');
+</script>
+
 </body>
 
 </html>
