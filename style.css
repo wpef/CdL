@@ -428,6 +428,15 @@ img.fill-white {
     filter : invert(1);
 }
 
+.donate-button img {
+    max-width : 180px;
+}
+
+.donate-button-m img {
+    max-width : 110px;
+}
+
+
 @media (max-width: 992px) {
     #header1 .desktop-menu {
     display: none;
