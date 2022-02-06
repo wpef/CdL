@@ -420,6 +420,10 @@ textarea.sw-font-weight-default {
     /* flex-direction : row-reverse; */
 }
 
+header#hero1 {
+    background-size: 100% 80%;
+}
+
 img.fill-white {
     filter : invert(1);
 }
