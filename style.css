@@ -282,6 +282,7 @@ textarea.sw-font-weight-default {
 .sw-background-color-gradient {
     background: rgb(247,150,48);
     background: linear-gradient(rgba(247,150,48,1) 20%, #0333a0 80%);
+    background-attachment: fixed !important;
 }
 
 .sw-padding-bottom-4xs {
@@ -417,11 +418,6 @@ textarea.sw-font-weight-default {
 
 #hero1 .row {
     /* flex-direction : row-reverse; */
-}
-
-section#feature-grid1 {
-    background-image: linear-gradient(rgb(247, 150, 48) 20%, rgb(3, 51, 160) 80%);
-    background-attachment: fixed !important;
 }
 
 img.fill-white {
