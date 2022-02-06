@@ -419,6 +419,11 @@ textarea.sw-font-weight-default {
     /* flex-direction : row-reverse; */
 }
 
+section#feature-grid1 {
+    background: url(assets/gradient.jpeg);
+    background-attachment: fixed !important;
+}
+
 img.fill-white {
     filter : invert(1);
 }
@@ -462,6 +467,10 @@ img.fill-white {
 
     #header1 a.dropdown-item {
     padding-left: 1.5rem !important;
+    }
+
+    #hero1 .row {
+        flex-direction : column-reverse;
     }
 }
 
