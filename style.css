@@ -275,6 +275,10 @@ textarea.sw-font-weight-default {
     background-color: #f79630 !important;
 }
 
+.sw-background-color-second {
+    background-color: #0333a0 !important;
+}
+
 .sw-padding-bottom-4xs {
     padding-bottom: 1rem !important;
 }
@@ -407,7 +411,7 @@ textarea.sw-font-weight-default {
 
 
 #hero1 .row {
-    flex-direction : row-reverse;
+    /* flex-direction : row-reverse; */
 }
 
 img.fill-white {
