@@ -420,7 +420,7 @@ textarea.sw-font-weight-default {
 }
 
 section#feature-grid1 {
-    background: url(assets/gradient.jpeg);
+    background-image: linear-gradient(rgb(247, 150, 48) 20%, rgb(3, 51, 160) 80%);
     background-attachment: fixed !important;
 }
 
